@@ -1,5 +1,6 @@
 # xtion
-<img src="./img/img.png" />
+<img src="./img/img.png"/>
+
 ## setup
 ```bash
 # /your_ws/src
