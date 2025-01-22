@@ -11,6 +11,10 @@ rosdep install -i -y --from-path .
 # /your_ws/
 colcon build --symlink-install --packages-up-to xtion
 ```
+```bash
+sudo cp ./99-xtion-libusb.rules  /lib/udev/rules.d/
+sudo udevadm trigger
+```
 
 ## Execute
 ```bash
